@@ -18,7 +18,7 @@ Banco de dados provisório no formato *.csv
 4. Apagar imagens
 
 ### verificar_validade.py
-1. Imprimir tabela identificando se o produto está:
+Imprimir tabela identificando se o produto está:
     - vencido
     - vencendo em menos de 30 dias
     - vencendo em menos de 7 dias
