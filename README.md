@@ -12,10 +12,14 @@ Banco de dados provisório no formato *.csv
 1. Ler os números de código de barras a partir de fotos adicionadas à cartela "Código de barras"
 2. Para os valores que ainda não foram adicionados na tabela, encontrar a data de validade de acordo com o código de barras
 3. Adicionar os produtos à tabela "validade_produtos.csv":
+    - Codigo de barras
     - Nome produto
     - Data de validade
 4. Apagar imagens
 
 ### verificar_validade.py
-1. Identificar produtos vencidos
-2. Identificar produtos próximos ao vencimento
+1. Imprimir tabela identificando se o produto está:
+    - vencido
+    - vencendo em menos de 30 dias
+    - vencendo em menos de 7 dias
+    - OK
