@@ -2,7 +2,7 @@
 Verificar validade de produtos de acordo com informações do código de barras
 
 ## Organização
-### Código de barras
+### /Código de barras
 Cartela com novos códigos de barras para ser adicionados ao banco de dados
 
 ### validade_produtos.csv
