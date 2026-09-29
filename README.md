@@ -1,25 +1,15 @@
 # ValidadeProdutos
-Verificar validade de produtos de acordo com informações do código de barras
+Verificar validade de produtos
 
 ## Organização
-### /Código de barras
-Cartela com novos códigos de barras para ser adicionados ao banco de dados
+### alimentos.csv
+Banco de dados no formato *.csv
 
-### validade_produtos.csv
-Banco de dados provisório no formato *.csv
+### /relatorios
+Pasta com os relatórios gerados para produtos vencidos ou próximos ao vencimento de acordo com a data na qual foram criados
 
-### adicionar_produtos.py
-1. Ler os números de código de barras a partir de fotos adicionadas à cartela "Código de barras"
-2. Para os valores que ainda não foram adicionados na tabela, encontrar a data de validade de acordo com o código de barras
-3. Adicionar os produtos à tabela "validade_produtos.csv":
-    - Codigo de barras
-    - Nome produto
-    - Data de validade
-4. Apagar imagens
+### food_inventory_app.py
+Código fonte
 
-### verificar_validade.py
-Imprimir tabela identificando se o produto está:
-    - vencido
-    - vencendo em menos de 30 dias
-    - vencendo em menos de 7 dias
-    - OK
+### food_inventory_app.exe
+Aplicativo
