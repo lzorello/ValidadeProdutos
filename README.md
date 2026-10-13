@@ -8,29 +8,6 @@ Aplicativo para gerenciamento de estoque de alimentos, com cadastro, busca, atua
 - Tkinter (normalmente incluído em instaladores padrão do Python para Windows e macOS)
 - `pytest` para executar os testes (opcional, mas recomendado)
 
-## Instalação
-
-### 1) Criar ambiente virtual
-
-Windows:
-
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-macOS/Linux:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 2) Instalar dependências
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Execução
 
